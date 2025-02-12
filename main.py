@@ -5,8 +5,8 @@ from functools import partial, wraps
 import gradio as gr
 import mlx_whisper
 
-HF_REPO = "mlx-community/whisper-turbo"
-LANGUAGE = "ja"
+HF_REPO = "mlx-community/distil-whisper-large-v3"
+LANGUAGE = "en"
 
 
 def main():
